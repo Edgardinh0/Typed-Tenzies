@@ -1,0 +1,18 @@
+.key-button {
+    height: 5rem;
+    aspect-ratio: 1 / 1;
+
+    box-shadow: 0px 2px 5px;
+    border: none;
+    border-radius: 1rem;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.key-button.held {
+    background-color: rgba(81, 153, 17, 0.628);
+}

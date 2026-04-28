@@ -1,0 +1,35 @@
+main {
+  background-color: #F5F5F5;
+  height: 70vh;
+  aspect-ratio: 1 / 1;
+  min-height: 600px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  max-width: 90%;
+
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.roll-button {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 2rem;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: rgba(119, 5, 224, 0.732);
+  color: #F5F5F5;
+
+  cursor: pointer;
+}
